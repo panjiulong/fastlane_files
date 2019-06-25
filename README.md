@@ -7,7 +7,7 @@
 Create a fastlane folder in the root folder of your project and create a Fastfile file in this folder, simply add the following line to your Fastfile:
 
 ```
-import_from_git(url: 'https://github.com/panjiulong/fastlane_files/release_pod', branch: 'master')
+import_from_git(url: 'https://github.com/panjiulong/fastlane_files.git', path: "release_pod/Fastfile",branch: 'master')
 ```
 
 
